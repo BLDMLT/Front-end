@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table align="center" border="1" cellpadding="0" cellspacing="0" width="500" height="249">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>-----------</p>
+    <table width="500" height="249" border="1" cellspacing="0">
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+    <ul>
+        <li>无序列表1</li>
+        <li>无序列表2</li>
+        <li>无序列表3</li>
+    </ul>
+    <ol>
+        <li>有序列表1</li>
+        <li>有序列表2</li>
+        <li>有序列表3</li>
+    </ol>
+    <dl>
+        <dt>题目</dt>
+        <dd>解释1</dd>
+        <dd>解释2</dd>
+    </dl>
+    <form action="demo.php" method="POST" name="name1">
+        <!-- 文本框 -->
+        <label for="text"> 用户名：</label><input type="text" name="username" value="请输入用户名" maxlength="6" id="text"> <br>
+        <!-- 看不见的密码框 -->
+        密码： <input type="password" name="pwd"> <br>
+        <!-- 单选,name相同可实现单选 -->
+        性别： <label for="nan"> 男</label> <input type="radio" name="sex" value="男" checked id="nan"> <label for="nv"> 女</label> <input type="radio" name="sex" value="女" id="nv"> <br>
+        <!-- 复选框 -->
+        爱好：吃饭 <input type="checkbox" name="hobby" value="吃饭"> 睡觉 <input type="checkbox" name="hobby"> 打豆豆 <input type="checkbox" name="hobby"> <br>
+        <!-- 提交按钮 -->
+        <input type="submit" value="免费注册">
+        <!-- 重置按钮 -->
+        <input type="reset" value="重新填写"> <br>
+        <!-- 普通的按钮 -->
+        <input type="button" value="获取验证码"> <br>
+        <!-- 上传用 -->
+        上传头像：<input type="file"> <br>
+        <!-- 下拉菜单 -->
+        籍贯：
+        <select>
+            <option> A </option>
+            <option> B </option>
+            <option> C </option>
+            <option> D </option>
+        </select> <br>
+        <!-- 文本框域 -->
+        反馈： <br>
+        <textarea name="" id="" cols="30" rows="10">
+            请输入内容
+
+        </textarea>
+    </form>
+
+</body>
+
+</html>
