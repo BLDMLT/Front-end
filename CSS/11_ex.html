@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .box1 {
+            width: 1226px;
+            height: 460px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        
+        .box1 .left {
+            float: left;
+            width: 230px;
+            height: 460px;
+            background-color: purple;
+        }
+        
+        .box1 .right {
+            float: left;
+            width: 996px;
+            height: 460px;
+            background-color: skyblue;
+        }
+        
+        .box2 {
+            width: 1226px;
+            height: 285px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        
+        .box2 li {
+            width: 296px;
+            height: 285px;
+            background-color: lightgray;
+            float: left;
+            margin-right: 14px;
+        }
+        
+        .box2 .last {
+            margin-right: 0;
+        }
+        
+        .box3 {
+            width: 1226px;
+            height: 615px;
+            background-color: lightblue;
+            margin: 0 auto;
+        }
+        
+        .box3 .left {
+            float: left;
+            width: 234px;
+            height: 615px;
+            background: pink;
+        }
+        
+        .box3 .right {
+            float: left;
+            width: 992px;
+            height: 615px;
+            background: gray;
+        }
+        
+        .box3 .right>div {
+            float: left;
+            width: 232px;
+            height: 298px;
+            background-color: #fff;
+            margin-left: 14px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="left">LEFT</div>
+        <div class="right">RIGHT</div>
+    </div>
+    <ul class="box2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="last">4</li>
+    </ul>
+    <div class="box3">
+        <div class="left"><img src="LEFT" alt="LEFT"></div>
+        <div class="right">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
