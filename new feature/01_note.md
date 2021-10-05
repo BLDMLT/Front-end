@@ -41,10 +41,20 @@
 
 
 #### 3. input新增表单
-|      |      |
-| :--- | :--- |
-|      |      |
-|      |      |
-|      |      |
+
+      <ul>
+            <li>邮箱：<input type="email"></li>
+            <li>网址：<input type="url"></li>
+            <li>日期：<input type="date"></li>
+            <li>日期：<input type="time"></li>
+            <li>数量：<input type="number"></li>
+            <li>手机号码：<input type="tel"></li>
+            <li>搜索：<input type="search"></li>
+            <li>颜色：<input type="color"></li>
+            <li><input type="submit" value="提交"></li>
+        </ul>
 
 
+  #### 4. 表格新增
+
+  

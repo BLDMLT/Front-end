@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* E[att]  */
+        
+        input[value] {
+            color: pink;
+        }
+        /* 只选择type是text的 */
+        /* E[att=""] */
+        
+        input[type=text] {
+            color: powderblue;
+        }
+        /* E[att^=""] */
+        
+        div[class^=incon] {
+            color: red;
+        }
+        
+        selction[class$=date] {
+            color: pink;
+        }
+        /* 1.选择ul里面的伪类选择器 */
+        
+        ul li:first-child {
+            color: red;
+        }
+        
+        ul li:nth-child(3) {
+            background-color: blue
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1.利用属性选择器，可以不用借助于类或者id选择器 -> E[att] -->
+    <!-- <input type="text" value="Plz enter your name">
+    <input type="text"> -->
+    <!-- 2. 属性选择器还可以选择属性=值的某些元素 -> E[att="val"] -->
+    <input type="text" name="" id="">
+    <input type="password" name="" id="">
+    <!-- 3. 可以选择以属性值开头的元素 -> E[att^="val"] -->
+    <div class="incon1">小图标1</div>
+    <div class="incon2">小图标2</div>
+    <div class="incon3">小图标3</div>
+    <div class="incon4">小图标4</div>
+    <div class="incon5">小图标5</div>
+    <!-- 4. 可以选择属性结尾的元素 -> E[att$="val"] -->
+    <selction class="icon1-date">结尾属性1</selction>
+    <selction class="icon2-date">结尾属性2</selction>
+    <selction class="icon3-date">结尾属性3</selction>
+    <selction class="icon4-date">结尾属性4</selction>
+    <selction class="icon5-date">结尾属性5</selction>
+    <!-- 5.属性中含有-> E[att*="val"] ->  -->
+
+
+
+    <!-- 伪类选择器 -->
+    <ul>
+        <li>这是第1个孩子</li>
+        <li>这是第2个孩子</li>
+        <li>这是第3个孩子</li>
+        <li>这是第4个孩子</li>
+        <li>这是第5个孩子</li>
+        <li>这是第6个孩子</li>
+        <li>这是第7个孩子</li>
+        <li>这是第8个孩子</li>
+    </ul>
+
+
+</html>
