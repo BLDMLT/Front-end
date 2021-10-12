@@ -6,7 +6,8 @@
 * 注意用 zh-CN
 
 1. 引入样式 -> link   -> check -> 初始化样式和公共样式
-2. favicon图标 -> 左上角图标 -> 图片格式转换成ico -> www.bitbug.net
+2. favicon图标 -> 左上角图标 -> 图片格式转换成ico -> www.bitbug.net   
+   * 一定放在根目录下
 
 
 1-05
