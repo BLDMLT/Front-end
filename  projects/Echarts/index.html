@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization -> Echarts</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 1. header -->
+
+    <header>
+        <h1>DataVisualization -> Echarts</h1>
+        <div class="showTime"></div>
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000);
+
+            function time() {
+                clearTimeout(t);
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours();
+                var m = dt.getMinutes();
+                var s = dt.getSeconds();
+                document.querySelector(".showTime").innerHTML =
+                    "Current Time: " + day + "/" + mt + "/" + y + " - " +
+                    h + ":" + m + ":" + s;
+                t = setTimeout(time, 1000);
+            }
+        </script>
+
+    </header>
+    <script src="js/flexible.js"></script>
+
+</body>
+
+</html>
