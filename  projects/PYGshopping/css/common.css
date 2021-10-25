@@ -107,3 +107,35 @@
     font-size: 16px;
     color: #fff;
 }
+
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar::before {
+    content: '\e93a';
+    font-family: "icomoon";
+}
+
+.shopcar::after {
+    content: '\e920';
+    font-family: "icomoon";
+}
