@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.min.js"></script>
+</head>
+
+<body>
+    <button id="btnGET1">GET1</button>
+    <button id="btnGET2">GET2</button>
+    <script>
+        // $.get(url, [data], [callback]);
+        $(function() {
+            $('#btnGET1').on('click', function() {
+                    // get 不带参数
+                    $.get('http://www.liulongbin.top:3006/api/getbooks', function(res) {
+                        console.log(res)
+                    })
+                })
+                //  get 带参数
+            $('#btnGET2').on('click', function() {
+                $.get('http://www.liulongbin.top:3006/api/getbooks', {
+                    id: 1
+                }, function(res) {
+                    console.log(res)
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="#" alt="AM">
+    <div>Good Morning</div>
+    <script>
+        // 1.获取元素
+        var img = document.querySelector('img');
+        var div = document.querySelector('div');
+        // 2.获取当前小时
+        var date = new Date();
+        var h = date.getHours();
+        // 3. 判断
+        if (h < 12) {
+            img.src = "#";
+            div.innerHTML = "Good Morning 2";
+        } else if (h < 18) {
+            img.src = "#";
+            div.innerHTML = "Good Afternoon";
+        } else {
+            img.src = "#";
+            div.innerHTML = "Good Night";
+        }
+    </script>
+</body>
+
+</html>

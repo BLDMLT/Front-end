@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.red {
+    color: #e02d2d;
+}
+
+.grey {
+    color: #bfbfbf;
+}
+
+.tframe {
+    margin: 100px auto;
+    width: 266px;
+    height: 229px;
+    border: 2px solid #58abff;
+    display: block;
+}
+
+.date_table .label {
+    height: 35px;
+    width: 100%;
+    border-bottom: 1px solid #c8cacc;
+}
+
+.date_table li {
+    float: left;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    margin: 0 1px;
+    display: block;
+}
+
+.week .weekdate {
+    height: 35px;
+    width: 100%;
+    border-bottom: 1px solid #c8cacc;
+}
+
+.week .label .current_date {
+    background: #ffbb00;
+    color: #fff !important;
+    border-color: #ffbb00;
+}
+
+.weekdate:hover {
+    border-color: #ffbb00;
+}
+
+.weekdate.showClick {
+    border-color: #ffbb00;
+}

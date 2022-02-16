@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            cursor: pointer;
+        }
+        /* 类，属性，伪类 权重 10 */
+        
+        button[disabled] {
+            cursor: default;
+        }
+        
+        input[type="search"] {
+            color: pink;
+        }
+        /* $ 结尾 * 含有 */
+        
+        div[class^="icon"] {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <button>button1</button>
+    <button>button2</button>
+    <button>button3</button>
+    <button disabled="disabled">button4</button>
+    <button disabled="disabled">button5</button>
+    <br>
+    <input type="text" name="" id="" value="文本框1">
+    <input type="text" name="" id="" value="文本框2">
+    <input type="text" name="" id="" value="文本框3">
+    <br>
+    <input type="search" name="" id="" value="search1">
+    <input type="search" name="" id="" value="search2">
+    <input type="search" name="" id="" value="search3">
+    <br>
+    <div class="icon1">图标1</div>
+    <div class="icon2">图标2</div>
+    <div class="icon3">图标3</div>
+</body>
+
+</html>

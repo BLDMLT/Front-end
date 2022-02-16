@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+            /* transform: translate(x,y);  x轴和y轴移动位置,逗号分隔*/
+            /* transform: translate(100px, 100px); */
+            /* transform: translateX(); 只动x */
+        }
+        /* 不影响其他盒子，可用% 相对自身元素，对行内元素无效 */
+        
+        div:first-child {
+            transform: translate(20px, 20px);
+        }
+        /* 正顺，负逆 */
+        
+        div:nth-child(2) {
+            background-color: pink;
+            /* 过渡写在本身上，谁做动画给谁加 */
+            transition: all 0.3s;
+        }
+        
+        div:nth-child(2):hover {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>2</div>
+</body>
+
+</html>

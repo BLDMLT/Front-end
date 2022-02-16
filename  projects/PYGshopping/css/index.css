@@ -1,0 +1,306 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.main .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.main .news .news_hd {
+    height: 33px;
+    border: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news_hd h5 {
+    line-height: 33px;
+    float: left;
+    font-size: 14px;
+}
+
+.news_hd .more {
+    line-height: 33px;
+    float: right;
+}
+
+.news_hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.news_bd {
+    padding: 5px 15px 0;
+}
+
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* .main .news .news_bd {} */
+
+.main .lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.main .lifeservice ul {
+    width: 252px;
+}
+
+.main .lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.main .lifeservice ul li i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    background: url(../images/icons.png) no-repeat;
+}
+
+.main .lifeservice ul li em {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 14px;
+    background-color: #e60012;
+}
+
+
+/* 
+.main .lifeservice ul:nth-child(0) {
+    background-position: 0 0;
+} */
+
+.main .lifeservice ul li:nth-child(1) i {
+    background-position: -17px -15px;
+}
+
+.main .lifeservice ul li:nth-child(2) i {
+    background-position: -77px -15px;
+}
+
+.main .lifeservice ul li:nth-child(3) i {
+    background-position: -140px -15px;
+}
+
+.main .lifeservice ul li:nth-child(4) i {
+    background-position: -205px -15px;
+}
+
+.main .lifeservice ul li:nth-child(5) i {
+    background-position: -17px -88px;
+}
+
+.main .lifeservice ul li:nth-child(6) i {
+    background-position: -77px -88px;
+}
+
+.main .lifeservice ul li:nth-child(7) i {
+    background-position: -140px -88px;
+}
+
+.main .lifeservice ul li:nth-child(8) i {
+    background-position: -205px -88px;
+}
+
+.main .lifeservice ul li:nth-child(9) i {
+    background-position: -17px -158px;
+}
+
+.main .lifeservice ul li:nth-child(10) i {
+    background-position: -77px -158px;
+}
+
+.main .lifeservice ul li:nth-child(11) i {
+    background-position: -140px -158px;
+}
+
+.main .lifeservice ul li:nth-child(12) i {
+    background-position: -205px -158px;
+}
+
+.main .bargain {
+    margin-top: 5px;
+}
+
+
+/* recumbend */
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #5c5251;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    color: #ddd;
+}
+
+.plike {
+    height: 60px;
+}
+
+.plike .guess {
+    float: left;
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.plike .change {
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 35px;
+    padding-right: 20px;
+}
+
+.plike .change::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+}
+
+
+/* floor module  */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.box_hd .tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    margin-right: 10px;
+    border-bottom: 1px solid #ccc;
+    line-height: 33px;
+    text-align: center;
+}
+
+.col_329 {
+    width: 329px;
+    height: 361px;
+}
+
+.col_221 {
+    width: 221px;
+    height: 361px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+    height: 361px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

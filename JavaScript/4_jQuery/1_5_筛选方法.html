@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        $('li').parent(); //查找父级
+        $('ul').children("li"); // 相当于$('ul>li')
+        $('ul').find('li'); // 相当于$("ul li")
+        $('.first').siblings('li'); // 找兄弟
+        $('.first').nextAll('li'); // 之后所有同辈元素
+        $('.last').prevall('li'); // 之前所有同辈元素
+        $('div').hasClass("projected"); // 是否含有， 返回true
+        $('li').eq(2); // 相当于 $('li:eq(2)');
+    </script>
+</body>
+
+</html>
